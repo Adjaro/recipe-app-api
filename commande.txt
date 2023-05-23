@@ -23,3 +23,6 @@ docker-compose  run --rm app sh -c "python manage.py createsuperuser"
 
 ---debut  partie  getion  des  utilisateur
 docker-compose  run --rm app sh -c "python manage.py startapp user"
+
+
+docker-compose  run --rm app sh -c "python manage.py startapp recipe"
